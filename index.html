@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encrypter</title>
+    <link rel="stylesheet" href="iconos.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+<section>
+    <div id="main">
+        <h1>Texto <span><img src="arrow.png" alt=""></span> Emojis</h1>
+        <div id="endec-div">
+            <h3 id="enc-btn"><span><img src="tala.png" alt=""></span> Cifrar texto</h3>
+            <h3 id="dec-btn"><span><img src="khulatala.png" alt=""></span> Descifrar emojis</h3>
+        </div>
+        <div id="encryption">
+            <h5>1. Escriba un mensaje</h5>
+            <textarea placeholder="Escribe el mensaje a encriptar" name="" id="textmsg" cols="30" rows="10"></textarea>
+            <h5>2. Establecer una contraseña</h5>
+            <input placeholder="Escribe una contraseña" type="password" name="" id="password">
+            <h5>3. Cifrar mensaje</h5>
+            <button id="encrypt-btn"><span><img src="./tala.png" alt=""></span>Cifrar texto</button>
+        </div>
+        <div id="decryption">
+            <h5>1. Pegar mensaje encriptado</h5>
+            <textarea placeholder="Pega emojis a desincriptar" name="" id="emojimsg" cols="30" rows="10"></textarea>
+            <h5>2. Teclea una contraseña</h5>
+            <input placeholder="Escriba la contraseña" type="password" name="" id="finalpassword">
+            <h5>3. Descifrar emojis</h5>
+            <button id="decrypt-btn"><span><img src="./khulatala.png" alt=""></span>Descifrar texto</button>
+        </div>
+        <div id="result">
+    </div>  
+</section>
+    <footer>
+        <div class="center">
+        <div class="icon center">
+            <i class="fab fa-facebook-f fa-2x"></i>
+        </div>
+        <div class="icon center">
+            <i class="fab fa-instagram fa-2x"></i>
+        </div>
+        <div class="icon center">
+            <i class="fab fa-whatsapp fa-2x"></i>
+        </div>
+        <div class="icon center">
+            <i class="fab fa-twitter fa-2x"></i>
+        </div>
+        </div>
+    </footer>
+</body>
+    <script src="script.js"></script>
+</html>
